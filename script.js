@@ -11,6 +11,10 @@ function clearCanvas() {
     currentColor = event.target.value;
  }
 
+function brush(size){
+    brushSize = size;
+}
+
 let painting = false;
 
     function startPosition(e) {
